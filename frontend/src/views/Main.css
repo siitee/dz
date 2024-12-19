@@ -1,0 +1,35 @@
+.Main {
+    width: 100%;
+    min-height: calc(100vh - 50px - 50px);
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding: 30px;
+}
+.btnAdd {
+    position: absolute;
+    left: 46%;
+    width: 150px;
+    height: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+.btnAdd:hover {
+    background-color: #292929;
+}
+
+@media (min-width: 200px) and (max-width: 359px){
+    .Main {
+        display: block;
+    }
+
+    .btnAdd {
+        position: static;
+        margin-bottom: 30px;
+    }
+}

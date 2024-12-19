@@ -1,0 +1,35 @@
+.Registration {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 15%;
+}
+
+.Registration h1 {
+    margin-bottom: 20px;
+}
+
+.Registration input {
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.Registration button {
+    height: 30px;
+    width: auto;
+    border-radius: 10px;
+    font-size: 14pt;
+    background-color: #000000;
+    color: #ffffff;
+    border-style: none;
+}
+
+.Registration button:hover {
+    background-color: #292929;
+}
+
+.Registration #loginError {
+    color: red;
+    margin-top: 10px;
+}
